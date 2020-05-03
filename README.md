@@ -44,7 +44,7 @@ let's start Argo CD
     
 wait until everthing is started
 
-    TODO image argoCD Started
+![argocd](https://raw.githubusercontent.com/michaelgruczel/argoCD-tutorial/master/images/argocdstarted.png "argo cd") 
 
 let's install an argo cd CLI:
 
@@ -77,7 +77,6 @@ let's connect argo cd to our minikube cluster
 let's connect this repository https://github.com/argoproj/argocd-example-apps to our 
 cluster using the UI (can be done via API as well of course):
 
-
     open localhost:8080
     # login via admin user and created password
     # click new app and enter data
@@ -90,8 +89,8 @@ cluster using the UI (can be done via API as well of course):
     # cluster in-cluster (https://kubernetes.default.svc)
     # namespace default
     
-    TODO image here createApp
-    
+![createapp](https://raw.githubusercontent.com/michaelgruczel/argoCD-tutorial/master/images/createApp.png "create app")
+
 The app is not synced, means the deployment in kubernetses differs from git definition.
 Let's change that:
     
@@ -154,7 +153,7 @@ With Helm it is easy to share complex script stored in repositories. Let's add a
     
 mysql should be added to kube now
 
-    TODO image mysql
+![mysql](https://raw.githubusercontent.com/michaelgruczel/argoCD-tutorial/master/images/mysql.png "mysql")
     
 Let's remove mysql for now again
         
